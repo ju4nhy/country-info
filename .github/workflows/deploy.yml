@@ -25,4 +25,4 @@ jobs:
     - name: Deploy to Render
       uses: johnbeynon/render-deploy-action@v0.0.8
       with:
-        service-id: ${{ secrets.MY_RENDER_SERVICE_ID }}
+        deploy-hook-url: ${{ secrets.RENDER_DEPLOY_HOOK }}
